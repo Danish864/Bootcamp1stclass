@@ -26,6 +26,6 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: install surge
-      run: npm install -g surge
+      run: npm install --global surge
     - name: run surge
       run: surge ./ bootcampassignment2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
