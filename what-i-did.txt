@@ -1,0 +1,3 @@
+step1 : installed node js and npm,github desktop,vs code etc.
+step2: learned using these softwares. learned github
+step3 : made github action file to automate surge website deployment.
